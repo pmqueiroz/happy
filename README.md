@@ -30,8 +30,6 @@
     Orphanage Finder platform made with React.js and React Native using Typescript during the<a src="https://nextlevelweek.com"> NLW (Next Level Week) #03</a>🚀
 </p>
 
-
-
 <div align="center">  
     
 [![License][license-badge]][license-url]
