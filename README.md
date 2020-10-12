@@ -58,6 +58,10 @@
 
 ### Getting Started 🚀
 
+#### Layout
+
+[![Button Alternative](https://github-readme-perks.vercel.app/api/button?content=Open%20on%20Figma%20%20&logo=figma)](https://www.figma.com/file/57XTrT9eSBzyZPIvUUpixB/Happy-Web-Copy?node-id=0%3A1)
+
 #### Cloning
 
 ```ps
