@@ -38,7 +38,6 @@
 ![Git Stars][star-badge]
 ![NLW Stats][nlw-badge]
 
-
 </div>
 
 
