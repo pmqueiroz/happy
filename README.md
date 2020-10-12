@@ -82,7 +82,7 @@ $ cd web
 $ yarn install
 ```
 
->The above command will install all third party dependencies used. If you want to install manually all the dependencies see all dependencies bellow
+>The above command will install all third party dependencies used. If you want to install manually see all dependencies bellow
 
 ```json
    "dependencies": {
