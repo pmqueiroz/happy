@@ -82,13 +82,30 @@ $ cd web
 $ yarn install
 ```
 
->The above command will install all third party dependencies used. If you want to install manually all the dependencies follow the steps bellow
+>The above command will install all third party dependencies used. If you want to install manually all the dependencies see all dependencies bellow
 
-```ps
-# Entering in web directory
-$ cd web
-
-# Installing depencies
+```json
+   "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "@types/jest": "^24.0.0",
+      "@types/node": "^12.0.0",
+      "@types/react": "^16.9.0",
+      "@types/react-dom": "^16.9.0",
+      "leaflet": "^1.7.1",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1",
+      "react-icons": "^3.11.0",
+      "react-leaflet": "^2.7.0",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "3.4.3",
+      "typescript": "~3.7.2"
+   },
+   "devDependencies": {
+      "@types/react-leaflet": "^2.5.2",
+      "@types/react-router-dom": "^5.1.6"
+   }
 ```
 
 <!-- ##### Server 
@@ -106,7 +123,7 @@ $ yarn install
 # Entering in server directory
 $ cd server
 
-# Installing depencies
+# Installing dependencies
 $ yarn add @types/cors -D
 $ yarn add @types/express -D
 $ yarn add ts-node-dev -D
@@ -119,7 +136,7 @@ $ yarn add dotenv
 
 ##### Mobile
 
-This projects use third party dependecies and fonts that need to be installed in development, use that command to install all needed dependencies and fonts
+This projects use third party dependencies and fonts that need to be installed in development, use that command to install all needed dependencies and fonts
 
 ```ps
 $ cd mobile
@@ -137,7 +154,7 @@ $ yarn install
 $ expo install expo-font @expo-google-fonts/archivo
 $ expo install expo-font @expo-google-fonts/poppins
 
-# Installing dependecies required
+# Installing dependencies required
 $ yarn add @react-navigation/native
 $ expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 $ yarn add @react-navigation/stack
