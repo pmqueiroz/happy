@@ -7,7 +7,8 @@
   "author": "Pedro Queiroz",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --transpile-only --ignore-watch nodule_modules src/server.ts"
+    "dev": "ts-node-dev --transpile-only --ignore-watch nodule_modules src/server.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "private": true,
   "dependencies": {
