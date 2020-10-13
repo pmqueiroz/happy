@@ -1,5 +1,7 @@
 import express from 'express';
 
+import './database/connection';
+
 const app = express();
 const port = 3333;
 
