@@ -1,0 +1,21 @@
+{
+  "name": "happy-api",
+  "version": "0.0.1",
+  "description": "Orphanage Finder platform made with React.js and React Native using Typescript during the NLW",
+  "main": "src/server.ts",
+  "repository": "https://github.com/pmqueiroz/happy",
+  "author": "Pedro Queiroz",
+  "license": "MIT",
+  "scripts": {
+     "dev:server": "ts-node-dev --transpile-only --ignore-watch nodule_modules src/server.ts"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3"
+  }
+}
